@@ -1,0 +1,16 @@
+print("linear sreach")
+
+
+import array as arr
+c=arr.array('d',[])
+a=int(input("Enter the students count:"))
+print("Enter the %i students roll no:"%(a))
+var=list(map(int,input().split()))
+print("students roll no:",var)
+b=int(input("Enter the roll no which to be serach: "))
+if(b!=c):
+     print("it is program")
+elif(b==c):
+     print("it is not program")
+
+
